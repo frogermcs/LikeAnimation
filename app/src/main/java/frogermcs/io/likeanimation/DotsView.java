@@ -13,7 +13,7 @@ import android.view.View;
  */
 public class DotsView extends View {
     private static final int DOTS_COUNT = 7;
-    private static final int OUTER_DOTS_POSITION_ANGLE = 51;
+    private static final int OUTER_DOTS_POSITION_ANGLE = 360 / DOTS_COUNT;
 
     private static final int COLOR_1 = 0xFFFFC107;
     private static final int COLOR_2 = 0xFFFF9800;
