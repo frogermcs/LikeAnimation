@@ -17,6 +17,8 @@ import android.view.animation.OvershootInterpolator;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import com.tediferous.culturecloud.R;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -157,5 +159,9 @@ public class LikeButtonView extends FrameLayout implements View.OnClickListener 
                 break;
         }
         return true;
+    }
+
+    public boolean isChecked() {
+        return isChecked;
     }
 }
